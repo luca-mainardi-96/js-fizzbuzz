@@ -1,8 +1,10 @@
 for (let i = 0; i < 100; i++){
 
-let mlt3 = (i+1)%3
+const n = (i+1)
 
-let mlt5 = (i+1)%5
+let mlt3 = (n)%3
+
+let mlt5 = (n)%5
 
 
 if(mlt3==0 && mlt5==0)
@@ -19,6 +21,6 @@ else if(mlt3==0)
 
 else
 
-    console.log(i+1)
+    console.log(n)
     
 }
